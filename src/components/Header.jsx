@@ -1,8 +1,8 @@
-export default function Header(){
-	return (
-		<header className="header">
-			<p>Logo</p>
-			<h3>Краткое описание</h3>
-		</header>
-	)
+export default function Header() {
+  return (
+    <header>
+      <h3>Logo</h3>
+      <span>description</span>
+    </header>
+  );
 }
